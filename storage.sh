@@ -21,12 +21,12 @@ if [ $1 -eq 1 ]; then
   mkdir $dataset_name
   cd $dataset_name
   echo ">> dataset $dataset_name created under ~/DataSets/$dataset_name , opening up the Query Interpreter .. "
-  python ~/DataSets-master/QueryInt/Query_Interpreter.py
+  python3 ~/DataSets-master/QueryInt/Query_Interpreter.py
 fi
 if [ $1 -eq 2 ]; then
   echo "dataset to open:"
   read dataset_name
   cd $dataset_name
   echo ">> dataset $dataset_name opened , opening up the Query Interpreter .. "
-  python ~/DataSets-master/QueryInt/Query_Interpreter.py
+  python3 ~/DataSets-master/QueryInt/Query_Interpreter.py
 fi
