@@ -6,14 +6,14 @@ This is a simple conception for data storage and data manipulation .
 A database will be replaced by a folder , that contains .csv files to replace any relation in the database .
 Csv files are easy to manipulate with pandas as they can be turned to data frames (tables , matixes , lists , strings ..) We talk about DATASETS .
     
-   DataBase --> Folder
-   DataBase Relation --> file.csv         
+    *  DataBase --> Folder
+    * DataBase Relation --> file.csv         
        
 # REQUIREMENTS:
 
-   python 3 and above
-   pandas (python module)
-   bash
+    * python 3 and above
+    * pandas (python module)
+    * bash
 
 # USAGE :
 0) Extract this repository in your home repository & open a terminal in it .
