@@ -1,8 +1,9 @@
 #!/usr/bin bash
+
 if [ ! -d "DataSets" ]; then
-  mkdir ~/DataSets
+  mkdir DataSets
 fi
-cd data
+cd DataSets
 if [ ! $1 ]; then
   echo "
       the storage engine needs at least one argument , none is given
@@ -18,14 +19,14 @@ if [ $1 -eq 1 ]; then
   echo "dataset name :"
   read dataset_name
   mkdir $dataset_name
-  cd ~/DataSets/$dataset_name
+  cd $dataset_name
   echo ">> dataset $dataset_name created under ~/DataSets/$dataset_name , opening up the Query Interpreter .. "
-  python ~/QueryInt/Query_Interpreter.py
+  python ~/DataSets-master/QueryInt/Query_Interpreter.py
 fi
 if [ $1 -eq 2 ]; then
   echo "dataset to open:"
   read dataset_name
-  cd ~/DataSets/$dataset_name
+  cd $dataset_name
   echo ">> dataset $dataset_name opened , opening up the Query Interpreter .. "
-  python ~/QueryInt/Query_Interpreter.py
+  python ~/DataSets-master/QueryInt/Query_Interpreter.py
 fi
