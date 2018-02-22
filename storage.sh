@@ -1,7 +1,6 @@
 #!/usr/bin bash
-cd ~/system
-if [ ! -d "data" ]; then
-  mkdir data
+if [ ! -d "DataSets" ]; then
+  mkdir ~/DataSets
 fi
 cd data
 if [ ! $1 ]; then
@@ -19,14 +18,14 @@ if [ $1 -eq 1 ]; then
   echo "dataset name :"
   read dataset_name
   mkdir $dataset_name
-  cd ~/system/data/$dataset_name
-  echo ">> dataset $dataset_name created under ~/system/data/$dataset_name , opening up the Query Interpreter .. "
-  python ~/system/QueryInt/Query_Interpreter.py
+  cd ~/DataSets/$dataset_name
+  echo ">> dataset $dataset_name created under ~/DataSets/$dataset_name , opening up the Query Interpreter .. "
+  python ~/QueryInt/Query_Interpreter.py
 fi
 if [ $1 -eq 2 ]; then
   echo "dataset to open:"
   read dataset_name
-  cd ~/system/data/$dataset_name
+  cd ~/DataSets/$dataset_name
   echo ">> dataset $dataset_name opened , opening up the Query Interpreter .. "
-  python ~/system/QueryInt/Query_Interpreter.py
+  python ~/QueryInt/Query_Interpreter.py
 fi
