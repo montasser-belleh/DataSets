@@ -15,7 +15,7 @@ Csv files are easy to manipulate with pandas (python module) as they can be turn
     * pandas (python3 module)
     * bash
     
-# install requirements :
+install requirements :
 
     $ sudo apt-get install python3
     $ sudo apt-get install python3-pandas
