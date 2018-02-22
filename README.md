@@ -57,6 +57,6 @@ The execution will open a command prompt : the Query interpreter , type
 Notes:
 
    * upcase and downcase are accepted when using the Query interpreter .
-   * please use '' instead of "" . e.g: ('ali','baba') and not ("ali","baba")
+   * please use '<thing>' instead of "<thing>" . e.g: ('ali','baba') and not ("ali","baba")
         this system doesn't support "<thing>" yet .
    * ('ali','baba') and (ali,baba) are the same .
