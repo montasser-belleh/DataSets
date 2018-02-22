@@ -19,13 +19,13 @@ Csv files are easy to manipulate with pandas as they can be turned to data frame
 0) Extract this repository in your home repository & open a terminal in it .
 1) Execute the storage.sh file :
 
-    # bash storage.sh
+       # bash storage.sh
     
     a help menu will appear , follow it :
          
-    bash storage.sh 0 to exit                  
-    bash storage.sh 1 to create a new dataset
-    bash storage.sh 2 to open an existing dataset
+       # bash storage.sh 0 to exit                  
+       # bash storage.sh 1 to create a new dataset
+       # bash storage.sh 2 to open an existing dataset
        
 
 any .csv file created by the Query Interpreter will be now saved under ~/DataSets/database_name .
