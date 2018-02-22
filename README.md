@@ -37,7 +37,7 @@ any .csv file created by the Query Interpreter will be now saved under ~/DataSet
     
 The execution will open a command prompt : the Query interpreter , type 
 
-      Query Interpreter >>?
+       Query Interpreter >>?
         
  for help when using it .
 
