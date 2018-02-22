@@ -35,12 +35,12 @@ The execution will open a command prompt : the Query interpreter , type ? for he
 2) Use the Query Interpreter to create your dataset relations , and manipulate them
 
     
-   # DECLARE ENTITY_NAME AS FIELD1, [[FIELD2], FIELD3]                 
-   # ADD (FIELD1, [[FIELD2], FIELD3]) TO ENTITY_NAME                  
-   # DELETE PRIMARY_KEY_VALUE FROM ENTITY_NAME                        
-   # FIND [PRIMARY_KEY_VALUE | ALL] IN ENTITY_NAME                   
-   # UPDATE PRIMARY_KEY_VALUE IN ENTITY_NAME SET FIELDNAME=NEW_VALUE 
-   # QUIT to exit                 
+      # DECLARE ENTITY_NAME AS FIELD1, [[FIELD2], FIELD3]                 
+      # ADD (FIELD1, [[FIELD2], FIELD3]) TO ENTITY_NAME                  
+      # DELETE PRIMARY_KEY_VALUE FROM ENTITY_NAME                        
+      # FIND [PRIMARY_KEY_VALUE | ALL] IN ENTITY_NAME                   
+      # UPDATE PRIMARY_KEY_VALUE IN ENTITY_NAME SET FIELDNAME=NEW_VALUE 
+      # QUIT to exit                 
        
 
 
@@ -48,5 +48,5 @@ Notes:
 
    * upcase and downcase are accepted when using the Query interpreter .
    * please use '' instead of "" . e.g: ('ali','baba') and not ("ali","baba")
-        this system doesn support "<thing>" now .
+        this system doesn't support "<thing>" yet .
    * ('ali','baba') and (ali,baba) are the same .
