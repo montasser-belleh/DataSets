@@ -16,10 +16,11 @@ Csv files are easy to manipulate with pandas as they can be turned to data frame
    bash
 
 # USAGE :
-0) Extract this repository in your home repository .   
+0) Extract this repository in your home repository & open a terminal in it .
 1) Execute the storage.sh file :
 
-    bash storage.sh
+    # bash storage.sh
+    
     a help menu will appear , follow it :
          
     bash storage.sh 0 to exit                  
@@ -34,12 +35,12 @@ The execution will open a command prompt : the Query interpreter , type ? for he
 2) Use the Query Interpreter to create your dataset relations , and manipulate them
 
     
-    DECLARE ENTITY_NAME AS FIELD1, [[FIELD2], FIELD3]                 
-    ADD (FIELD1, [[FIELD2], FIELD3]) TO ENTITY_NAME                  
-    DELETE PRIMARY_KEY_VALUE FROM ENTITY_NAME                        
-    FIND [PRIMARY_KEY_VALUE | ALL] IN ENTITY_NAME                   
-    UPDATE PRIMARY_KEY_VALUE IN ENTITY_NAME SET FIELDNAME=NEW_VALUE 
-    QUIT to exit                 
+   # DECLARE ENTITY_NAME AS FIELD1, [[FIELD2], FIELD3]                 
+   # ADD (FIELD1, [[FIELD2], FIELD3]) TO ENTITY_NAME                  
+   # DELETE PRIMARY_KEY_VALUE FROM ENTITY_NAME                        
+   # FIND [PRIMARY_KEY_VALUE | ALL] IN ENTITY_NAME                   
+   # UPDATE PRIMARY_KEY_VALUE IN ENTITY_NAME SET FIELDNAME=NEW_VALUE 
+   # QUIT to exit                 
        
 
 
@@ -49,6 +50,3 @@ Notes:
    * please use '' instead of "" . e.g: ('ali','baba') and not ("ali","baba")
         this system doesn support "<thing>" now .
    * ('ali','baba') and (ali,baba) are the same .
-      
-
-
